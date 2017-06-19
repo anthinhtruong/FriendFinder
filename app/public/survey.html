@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tables Page</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+
+<body>
+
+	<div class="container">
+
+		<h2>Survey Questions</h2>
+		<hr>
+
+		<h3><strong>About You</strong></h3>
+		<h4>Name: </h4>
+		<input type="text" name="" id="name" class="form-control" required >
+
+		<h4>Link to Photo Image</h4>
+		<input type="text" name="" id="photo" class="form-control" required >
+
+		<hr>
+
+		<h3><strong>Question 1</strong></h3>
+		<h4>Fav Animals</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q1">
+	 		<option value=""></option>
+            <option value="1">Bat</option>
+            <option value="2">Skunk</option>
+            <option value="3">Fox</option>
+            <option value="4">Cat</option>
+            <option value="5">Dog</option>
+      	</select>
+
+		<h3><strong>Question 2</strong></h3>
+		<h4>When do u go to sleep?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q2">
+	 		<option value=""></option>
+            <option value="1">10 pm</option>
+            <option value="2">1 am</option>
+            <option value="3">In CLass</option>
+            <option value="4">What is this "sleep"?</option>
+            <option value="5">5 am</option>
+      	</select>
+
+
+		<h3><strong>Question 3</strong></h3>
+		<h4>Fav shows</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q3">
+	 		<option value=""></option>
+            <option value="1">Park and Rec</option>
+            <option value="2">The Office</option>
+            <option value="3">Scandal</option>
+            <option value="4">GOT</option>
+            <option value="5"></option>
+      	</select>
+
+
+		<h3><strong>Question 4</strong></h3>
+		<h4>Code Level</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q4">
+	 		<option value=""></option>
+            <option value="1">Noob for hire</option>
+            <option value="2">Fake it till u make it</option>
+            <option value="3">Wonderwomen </option>
+            <option value="4">Magic 8 ball</option>
+            <option value="5">Master Jedi</option>
+      	</select>
+
+
+		<h3><strong>Question 5</strong></h3>
+		<h4>How Ron Swanson are you?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q5">
+	 		<option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+      	</select>
+
+
+		<h3><strong>Question 6</strong></h3>
+		<h4>How many times do you sneeze a day?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q6">
+	 		<option value=""></option>
+            <option value="1">Never </option>
+            <option value="2">10</option>
+            <option value="3">100000</option>
+            <option value="4">It wasnt me</option>
+            <option value="5">3</option>
+      	</select>
+
+
+		<h3><strong>Question 7</strong></h3>
+		<h4>Fav Flower?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q7">
+	 		<option value=""></option>
+            <option value="1">Cake flower</option>
+            <option value="2">Daisy</option>
+            <option value="3">I'm allergic</option>
+            <option value="4">Dead one</option>
+            <option value="5">Roses...on Bacholer</option>
+      	</select>
+
+		<h3><strong>Question 8</strong></h3>
+		<h4>What is your dream?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q8">
+	 		<option value=""></option>
+            <option value="1">Drive a Tesla</option>
+            <option value="2">Starbucks for life</option>
+            <option value="3">It's dead</option>
+            <option value="4">Jedi Coder</option>
+            <option value="5">Code a Robot</option>
+      	</select>
+
+		<h3><strong>Question 9</strong></h3>
+		<h4>How much money do u have in your pocket?</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q9">
+	 		<option value=""></option>
+            <option value="1">$50</option>
+            <option value="2">$0</option>
+            <option value="3">$-1000</option>
+            <option value="4">$70</option>
+            <option value="5">10 pennies, 5 dimes and 20 quarters</option>
+      	</select>
+
+		<h3><strong>Question 10</strong></h3>
+		<h4>Fav fast-food</h4>
+	 	<select data-placeholder="" class="chosen-select" id="Q10">
+	 		<option value=""></option>
+            <option value="1">Burger</option>
+            <option value="2">Gum</option>
+            <option value="3">Chikin'</option>
+            <option value="4">Cow</option>
+            <option value="5">KBBQ</option>
+      	</select>
+
+		<br>
+		<br>
+
+		<!-- Submit Button -->
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+ Submit</button>
+
+		<hr>
+	    <footer class="footer">
+	      <div class="container">
+		        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/anthinhtruong/FriendFinder">GitHub Repo</a></p>
+	      </div>
+
+
+<div id="bestFriendModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">X</button>
+				<h2 class="modal-title">Best Match</h2>
+			</div>
+			<div class="modal-body">
+				<h2 id="bestFriendName"></h2>
+				<img id="bestFriendImg" src="#" width=500px alt="Best Friend">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	    </footer>
+
+	</div>
+
+
+</body>
+
+<script type="text/javascript">
+console.log("HIIIII")
+$("#bestFriendModal").hide();
+
+
+$("#submit").on("click", function(){
+
+if (checkForm() == false){
+	alert("Answer all questions pleaseee")
+}
+else{
+	addUser();
+}
+
+
+function checkForm(){
+			$(".form-control").each(function(){
+				if ($(this).val() == false){
+					alert("Answer all questions pleaseee")
+			}
+			
+			})
+
+			$(".chosen-select").each(function(){
+				if ($(this).val() == false){
+					alert("Answer all questions pleaseee")
+				}
+				
+			})	
+}
+
+function addUser(){
+		var newFriends = {
+		name: $("#name").val(),
+		photo: $("#photo").val(),
+		score: [
+				Number($("#Q1").val()),
+				Number($("Q2").val()),
+				Number($("#Q3").val()),
+				Number($("#Q4").val()),
+				Number($("#Q5").val()),
+				Number($("#Q6").val()),
+				Number($("#Q7").val()),
+				Number($("#Q8").val()),
+				Number($("#Q9").val()),
+				Number($("#Q10").val())
+				]
+	}
+	
+
+
+	$.post("/api/friends", newFriends,function(data) {
+        console.log(data.score);
+
+		alert("Adding New User...");
+
+		$("#bestFriendName").text(data.name);
+		$("#bestFriendImg").attr("src", data.photo);
+		
+			// $("#bestFriendModal").modal("show");
+		$("#bestFriendModal").show();
+
+      });
+}
+	
+
+	// friends.text(newFriends)
+})
+	
+
+
+
+</script>
+</html>
